@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="aHV-Mb-rHw">
+            <objects>
+                <viewController id="v5L-Fy-DZg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bnk-Py-Vuj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ColoredLine" translatesAutoresizingMaskIntoConstraints="NO" id="eCa-bf-ZHv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="7"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="7" id="f1w-8A-IUg"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="eCa-bf-ZHv" firstAttribute="leading" secondItem="U4d-3c-Bhq" secondAttribute="leading" id="BlG-eU-luF"/>
+                            <constraint firstItem="eCa-bf-ZHv" firstAttribute="top" secondItem="U4d-3c-Bhq" secondAttribute="top" id="FHO-bg-Gxf"/>
+                            <constraint firstItem="eCa-bf-ZHv" firstAttribute="trailing" secondItem="U4d-3c-Bhq" secondAttribute="trailing" id="dne-37-qEA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="U4d-3c-Bhq"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7zR-Xs-M9L"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jgr-ax-E9G" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-220" y="132.68365817091455"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="CeM-0Z-zbW">
+            <objects>
+                <navigationController storyboardIdentifier="Categories" automaticallyAdjustsScrollViewInsets="NO" id="pB8-af-8uW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="SearchIcon" id="U6N-Kd-yec">
+                        <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-10"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="90d-6c-O3Z">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.95686274509803915" green="0.32156862745098036" blue="0.396078431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="v5L-Fy-DZg" kind="relationship" relationship="rootViewController" id="wEZ-t8-iVM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m5C-Cv-vGJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-924" y="133"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ColoredLine" width="375" height="7"/>
+        <image name="SearchIcon" width="22" height="22"/>
+    </resources>
+</document>

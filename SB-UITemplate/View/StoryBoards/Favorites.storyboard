@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fR5-DO-gDi">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="W9d-QJ-UHz">
+            <objects>
+                <viewController id="2CR-a9-ZAl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QGW-mh-TiS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ColoredLine" translatesAutoresizingMaskIntoConstraints="NO" id="qpG-iJ-JxL">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="7"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="7" id="F8n-Ay-O6t"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="qpG-iJ-JxL" secondAttribute="trailing" id="BQO-z5-iKx"/>
+                            <constraint firstItem="qpG-iJ-JxL" firstAttribute="leading" secondItem="S4K-98-fC6" secondAttribute="leading" id="RUC-74-Ai1"/>
+                            <constraint firstItem="qpG-iJ-JxL" firstAttribute="top" secondItem="S4K-98-fC6" secondAttribute="top" id="mzT-QA-eMc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="S4K-98-fC6"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="h1a-xK-NGX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zfZ-9v-ou7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="892" y="132.68365817091455"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zpU-yi-eww">
+            <objects>
+                <navigationController storyboardIdentifier="Favorites" automaticallyAdjustsScrollViewInsets="NO" id="fR5-DO-gDi" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="HearthIcon" id="Z3q-o2-5CT">
+                        <inset key="imageInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="-10"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="8S1-Im-oHs">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.097974158823490143" green="0.74947220087051392" blue="0.68409347534179688" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="2CR-a9-ZAl" kind="relationship" relationship="rootViewController" id="h4T-yM-nir"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rhC-iX-mQa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="146" y="133"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ColoredLine" width="375" height="7"/>
+        <image name="HearthIcon" width="23" height="21"/>
+    </resources>
+</document>
