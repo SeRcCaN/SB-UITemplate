@@ -26,7 +26,6 @@
 		B4973D2020246618004CF019 /* DetailTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4973D1E20246618004CF019 /* DetailTVCell.swift */; };
 		B4973D2120246618004CF019 /* DetailTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4973D1F20246618004CF019 /* DetailTVCell.xib */; };
 		B4973D24202469A7004CF019 /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4973D23202469A7004CF019 /* RoundedView.swift */; };
-		B4BBD8B8205277D600093A8E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4BBD8B7205277D600093A8E /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +50,6 @@
 		B4973D1E20246618004CF019 /* DetailTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTVCell.swift; sourceTree = "<group>"; };
 		B4973D1F20246618004CF019 /* DetailTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailTVCell.xib; sourceTree = "<group>"; };
 		B4973D23202469A7004CF019 /* RoundedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
-		B4BBD8B7205277D600093A8E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +78,6 @@
 		B4973CEB20231817004CF019 = {
 			isa = PBXGroup;
 			children = (
-				B4BBD8B7205277D600093A8E /* Default-568h@2x.png */,
 				B4973CF620231817004CF019 /* SB-UITemplate */,
 				B4973CF520231817004CF019 /* Products */,
 			);
@@ -229,7 +226,6 @@
 				B4973D0220231817004CF019 /* LaunchScreen.storyboard in Resources */,
 				B443353A20299B0E00B206A0 /* Favorites.storyboard in Resources */,
 				B4973CFF20231817004CF019 /* Assets.xcassets in Resources */,
-				B4BBD8B8205277D600093A8E /* Default-568h@2x.png in Resources */,
 				B44335262029925900B206A0 /* AddNewItem.storyboard in Resources */,
 				B4973D2120246618004CF019 /* DetailTVCell.xib in Resources */,
 				B443352E2029972E00B206A0 /* UserProfile.storyboard in Resources */,
